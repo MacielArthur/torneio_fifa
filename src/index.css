@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #080c14;
+    color: #e2e8f0;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Custom EA FC glow utilities */
+.glow-neon {
+  text-shadow: 0 0 10px rgba(0, 255, 135, 0.6), 0 0 20px rgba(0, 255, 135, 0.2);
+}
+
+.glow-cyan {
+  text-shadow: 0 0 10px rgba(96, 239, 255, 0.6), 0 0 20px rgba(96, 239, 255, 0.2);
+}
+
+.border-glow-neon {
+  box-shadow: 0 0 15px rgba(0, 255, 135, 0.25);
+  border-color: #00ff87;
+}
+
+/* EA FC angled design accents */
+.clip-angle {
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+

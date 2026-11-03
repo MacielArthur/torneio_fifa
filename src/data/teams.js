@@ -1,0 +1,88 @@
+export const TEAMS = [
+  // TIER S
+  {
+    id: 'real-madrid',
+    name: 'Real Madrid',
+    shortName: 'RMA',
+    tier: 'S',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
+    primaryColor: '#ffffff',
+    secondaryColor: '#00529F',
+  },
+  {
+    id: 'barcelona',
+    name: 'Barcelona',
+    shortName: 'BAR',
+    tier: 'S',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg',
+    primaryColor: '#A50044',
+    secondaryColor: '#004D98',
+  },
+  {
+    id: 'man-city',
+    name: 'Manchester City',
+    shortName: 'MCI',
+    tier: 'S',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
+    primaryColor: '#6CABDD',
+    secondaryColor: '#1C2C5B',
+  },
+  {
+    id: 'bayern',
+    name: 'Bayern de Munique',
+    shortName: 'BAY',
+    tier: 'S',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg',
+    primaryColor: '#DC052D',
+    secondaryColor: '#0066B2',
+  },
+
+  // TIER A
+  {
+    id: 'psg',
+    name: 'Paris Saint-Germain',
+    shortName: 'PSG',
+    tier: 'A',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg',
+    primaryColor: '#004170',
+    secondaryColor: '#DA291C',
+  },
+  {
+    id: 'liverpool',
+    name: 'Liverpool',
+    shortName: 'LIV',
+    tier: 'A',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg',
+    primaryColor: '#C8102E',
+    secondaryColor: '#00B2A9',
+  },
+  {
+    id: 'arsenal',
+    name: 'Arsenal',
+    shortName: 'ARS',
+    tier: 'A',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg',
+    primaryColor: '#EF0107',
+    secondaryColor: '#063672',
+  },
+  {
+    id: 'chelsea',
+    name: 'Chelsea',
+    shortName: 'CHE',
+    tier: 'A',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+    primaryColor: '#034694',
+    secondaryColor: '#EE242C',
+  },
+  {
+    id: 'juventus',
+    name: 'Juventus',
+    shortName: 'JUV',
+    tier: 'A',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg',
+    primaryColor: '#ffffff',
+    secondaryColor: '#000000',
+    invertInDark: true, // Juventus badge is monochrome black, inverted or surrounded by white in dark mode
+  },
+];
+
