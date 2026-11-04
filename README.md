@@ -40,18 +40,29 @@ Aplicativo web completo para gerenciamento de torneios presenciais de EA FC (FIF
 
 ## 🚀 Como Executar Localmente
 
-### 1. Iniciar servidor de desenvolvimento:
+### 1. Instalar as dependências (primeira vez):
+```bash
+npm install
+```
+
+### 2. Iniciar servidor de desenvolvimento:
 ```bash
 npm run dev
 ```
 
-### 2. Rodar bateria de testes unitários:
+> **📱 Dica Bônus (Acessar pelo Celular/Tablet no mesmo Wi-Fi):**
+> Você pode abrir a tabela e acompanhar as partidas diretamente do sofá pelo celular ou tablet. Para isso, inicie com a flag `--host`:
+> ```bash
+> npx vite --host
+> ```
+> O terminal exibirá um endereço de **Network** (ex: `http://192.168.X.X:5173`). Basta abrir esse link no navegador do celular conectado no mesmo Wi-Fi do computador!
+
+### 3. Rodar bateria de testes unitários:
 ```bash
 npm test
 ```
 
-### 3. Gerar build de produção:
+### 4. Gerar build de produção:
 ```bash
 npm run build
 ```
-
